@@ -24,8 +24,6 @@ int main()
         printf("The quadratic equation has real roots.\n");
         printf("Root1 = %.2f\n", root1);
         printf("Root2 = %.2f", root2);
-
-        return 0;
     }
     else if (discriminant < 0)
     {
@@ -35,15 +33,11 @@ int main()
         printf("The quadratic equation has imaginary roots.\n");
         printf("Root1 = %.2f + %.2f i\n", first_part, second_part);
         printf("Root2 = %.2f - %.2f i", first_part, second_part);
-
-        return 0;
     }
     else
     {
         printf("The quadratic equation has equal roots.\n");
         printf("Root = %.2f", -b / (2 * a));
-
-        return 0;
     }
 
     getch();
