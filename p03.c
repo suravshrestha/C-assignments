@@ -9,15 +9,15 @@
 int main()
 {
     float a, b;
-    char option;
+    char operator;
 
     printf("Enter any two numbers: ");
     scanf("%f %f", &a, &b);
 
     printf("Enter an arithmetic operator (+, -, x, / ): ");
-    scanf(" %c", &option);
+    scanf(" %c", &operator);
 
-    switch (option)
+    switch (operator)
     {
     case '+':
         printf("%.2f + %.2f = %.2f", a, b, a + b);
