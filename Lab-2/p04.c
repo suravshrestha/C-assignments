@@ -10,6 +10,8 @@ void main(void)
 {
     float a, b, sum;
 
+    printf("C program the display the sum of two numbers.\n");
+
     printf("Enter any two numbers: ");
     scanf("%f %f", &a, &b);
 

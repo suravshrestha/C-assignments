@@ -16,7 +16,13 @@ void main(void)
     printf("Enter the number of boys and girls: ");
     scanf("%u %u", &boys, &girls);
 
-    ratio = (float)girls / boys;
+    if (boys == 0)
+    {
+        printf("Error! Division by zero!!");
+        return;
+    }
+
+    ratio = (float)girls / boys; // type casting
 
     printf("Ratio = %.2f", ratio);
 

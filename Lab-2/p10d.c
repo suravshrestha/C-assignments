@@ -16,23 +16,8 @@ void main(void)
     printf("C program to evaluate the following expression:\n");
     printf("(u/x + v/y)^5 / (p^2/(3u^(2.5)) - q/(2v)^3.5)\n");
 
-    printf("u = ");
-    scanf("%f", &u);
-
-    printf("v = ");
-    scanf("%f", &v);
-
-    printf("x = ");
-    scanf("%f", &x);
-
-    printf("y = ");
-    scanf("%f", &y);
-
-    printf("p = ");
-    scanf("%f", &p);
-
-    printf("q = ");
-    scanf("%f", &q);
+    printf("Enter the values of u, v, x, y, p, and q: ");
+    scanf("%f %f %f %f %f %f", &u, &v, &x, &y, &p, &q);
 
     if (x == 0 || y == 0 || u == 0 || v == 0)
     {

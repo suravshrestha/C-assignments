@@ -13,6 +13,8 @@ void main(void)
 {
     float celsius, fahrenheit;
 
+    printf("C program to convert temperature in Centigrade scale to Fahrenheit scale\n");
+
     printf("Enter the temperature in Centigrade scale: ");
     scanf("%f", &celsius);
 

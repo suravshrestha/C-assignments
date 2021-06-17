@@ -10,6 +10,8 @@ int main()
 {
     float pens_price, copies_price, final_price;
 
+    printf("C program to find the price of pens and copies after discount\n");
+
     printf("Enter the price of 2 pens: ");
     scanf("%f", &pens_price);
 

@@ -4,8 +4,8 @@
 
     Formula used:
     Mid-point = (x, y)
-    x = (x1 + x2)/ 2;
-    y = (y1 + y2)/ 2;
+    x = (x1 + x2)/ 2
+    y = (y1 + y2)/ 2
 */
 
 #include <stdio.h>

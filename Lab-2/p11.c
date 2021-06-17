@@ -10,6 +10,8 @@ void main(void)
 {
     float a, b, temp;
 
+    printf("C program to swap two numbers\n");
+
     printf("Enter a number: ");
     scanf("%f", &a);
 

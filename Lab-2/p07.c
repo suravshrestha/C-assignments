@@ -14,11 +14,13 @@ void main(void)
 {
     float r1, r2, r_series, r_parallel;
 
-    printf("Enter the value of first resistance: ");
-    scanf("%.2f", &r1);
+    printf("C program to find the equivalent resistance in series and parallel combination\n");
 
     printf("Enter the value of first resistance: ");
-    scanf("%.2f", &r1);
+    scanf("%f", &r1);
+
+    printf("Enter the value of second resistance: ");
+    scanf("%f", &r2);
 
     if (r1 < 0 || r2 < 0)
     {
@@ -29,8 +31,8 @@ void main(void)
     r_series = r1 + r2;
     r_parallel = (r1 * r2) / (r1 + r2);
 
-    printf("Equivalent resistance for series combination: ", r_series);
-    printf("Equivalent resistance for parallel combination: ", r_parallel);
+    printf("Equivalent resistance for series combination: %.2f", r_series);
+    printf("\nEquivalent resistance for parallel combination: %.2f", r_parallel);
 
     getch();
 }

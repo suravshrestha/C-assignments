@@ -10,6 +10,8 @@ int main()
 {
     float p, t, r, si;
 
+    printf("C program to calculate the Simple Interest.\n");
+
     printf("Enter the principal, time and rate of interest: ");
     scanf("%f %f %f", &p, &t, &r);
 

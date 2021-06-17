@@ -8,8 +8,10 @@
 
 int main()
 {
-    char name[100];
+    char name[100]; // the length of an array must be pre-defined
     unsigned int age;
+
+    printf("C program to read name and age and display them\n");
 
     printf("Enter your name: ");
     gets(name);

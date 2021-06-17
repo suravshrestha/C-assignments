@@ -10,11 +10,15 @@ void main(void)
 {
     int seconds, minutes;
 
+    printf("C program to read the number of seconds, and convert it to minutes, and seconds.\n");
+
     printf("Enter the number of seconds: ");
     scanf("%d", &seconds);
 
     minutes = seconds / 60;
-    seconds %= 60;
+
+    // % (modulo operator) is an arithmetic operator which gives the remainder after division
+    printf("%ds = %d minutes %d seconds", seconds, minutes, seconds % 60);
 
     getch();
 }

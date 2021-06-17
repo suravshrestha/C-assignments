@@ -11,14 +11,15 @@ int main()
 {
     float x, y, v;
 
+    printf("Enter the values of x and y: ");
+    scanf("%f %f", &x, &y);
+
+    // Division by zero handling
     if (x == 0)
     {
         printf("Division by zero!");
         return 0;
     }
-
-    printf("Enter the values of x and y: ");
-    scanf("%f %f", &x, &y);
 
     v = x * x * x + y * y - 100.0 / x; // expression
 
