@@ -1,6 +1,6 @@
 /*
     Lab 1
-    6. Write a program to calculate the simple interest. Read the values of P, T, R from the user.
+    6. Write a program to calculate the simple interest. Read the values of principal, time, and rate of interest from the user.
 */
 
 #include <stdio.h>
