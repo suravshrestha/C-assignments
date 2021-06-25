@@ -1,5 +1,5 @@
 /* 
-    2. WAP to find the roots quadratic equation.
+    2. WAP to find the roots of a quadratic equation.
 */
 
 #include <stdio.h>
