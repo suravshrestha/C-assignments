@@ -1,5 +1,6 @@
 /*
-    1. WAP to find the area of a triangle.
+    Practice
+    1.  Write a program to find the area of a triangle.
 */
 
 #include <stdio.h>

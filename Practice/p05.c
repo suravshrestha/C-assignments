@@ -1,5 +1,6 @@
 /*
-    5. WAP to determine all the roots of a quadratic equation using switch statement.
+    Practice
+    5.  Write a program to determine all the roots of a quadratic equation using switch statement.
 */
 
 #include <stdio.h>

@@ -1,6 +1,7 @@
 /*
-    3. WAP to input two numbers and any one of the four arithmetic operators 
-    from the user and print the respective arithmetic result using switch statement.
+    Practice
+    3.  Write a program to input two numbers and any one of the four arithmetic operators 
+        from the user and print the respective arithmetic result using switch statement.
 */
 
 #include <stdio.h>

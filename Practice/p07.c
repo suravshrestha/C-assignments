@@ -1,4 +1,5 @@
 /*
+    Practice
     7.  Write a program to read numbers until the current sum becomes 1000 using do-while loop.
 */
 

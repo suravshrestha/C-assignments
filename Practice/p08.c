@@ -1,4 +1,5 @@
 /*
+    Practice
     8.  Write a program to read an integer and display the integers from 1 to n using for loop
 */
 

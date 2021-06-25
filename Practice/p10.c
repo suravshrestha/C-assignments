@@ -1,4 +1,5 @@
 /*
+    Practice
     10. Write a program to read an integer and check if it is Armstrong or not.
 */
 

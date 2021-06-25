@@ -1,5 +1,6 @@
 /*
-    9 Write a program to read an integer and check if it is palindrome or not.
+    Practice
+    9.  Write a program to read an integer and check if it is palindrome or not.
 */
 
 #include <stdio.h>
