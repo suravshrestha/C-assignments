@@ -1,6 +1,6 @@
 /*
     Lab 5
-    8.  Write a program to read a positive integer and display its multiplication table.
+    9.  Write a program to read a positive integer and display its multiplication table.
 */
 
 #include <conio.h>
