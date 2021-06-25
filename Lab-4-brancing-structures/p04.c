@@ -10,7 +10,7 @@ int main()
 {
     char c;
 
-    printf("C program to convert alphabet into uppercase if it is lowercase and vice and versa\n");
+    printf("C program to convert alphabet into uppercase if it is lowercase and vice versa\n");
 
     printf("Enter an alphabet: ");
     scanf(" %c", &c);

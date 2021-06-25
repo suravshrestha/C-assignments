@@ -12,7 +12,9 @@ int main()
 {
     float a, b, c, s, area;
 
-    printf("Enter the three sides of triangle: ");
+    printf("C program to find area of a triangle\n");
+
+    printf("\nEnter the three sides of triangle: ");
     scanf("%f %f %f", &a, &b, &c);
 
     // for a triangle, the sum of two sides must be greater than the third side

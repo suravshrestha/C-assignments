@@ -16,14 +16,14 @@ int main()
     printf("\nEnter the age of the person: ");
     scanf("%d", &age);
 
-    printf("\nSeniority allowance is given to people greater than 65 years.\n");
+    printf("\nSeniority allowance is given to people greater than 65 years.");
 
-    printf("Entered age: ", age);
+    printf("\nEntered age: %d", age);
 
     if (age > 65)
-        printf("The person will get seniority allowance.");
+        printf("\nThe person will get seniority allowance.");
     else
-        printf("The person will nto get seniority allowance.");
+        printf("\nThe person will not get seniority allowance.");
 
     getch();
     return 0;

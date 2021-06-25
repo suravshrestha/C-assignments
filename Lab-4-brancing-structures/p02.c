@@ -21,7 +21,7 @@ int main()
     else if (num < 0)
         printf("%d is a negative integer.", num);
     else
-        printf("%d is neither positive, nor negative.");
+        printf("%d is neither positive, nor negative.", num);
 
     getch();
     return 0;

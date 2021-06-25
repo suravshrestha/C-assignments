@@ -12,7 +12,9 @@ int main()
     float a, b;
     char operator;
 
-    printf("Enter any two numbers: ");
+    printf("C program to perform arithmetic operation (+, -, x, / ) on two numbers\n");
+
+    printf("\nEnter any two numbers: ");
     scanf("%f %f", &a, &b);
 
     printf("Enter an arithmetic operator (+, -, x, / ): ");

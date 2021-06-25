@@ -25,7 +25,7 @@ int main()
            "     = 0 for all other case\n\n");
 
     printf("Enter the value of x: ");
-    scanf("%f", x);
+    scanf("%f", &x);
 
     if (x <= 0)
         result = 0;
@@ -40,7 +40,7 @@ int main()
     else
         result = 0;
 
-    printf("f(%.2f) = %.2f", result);
+    printf("f(%.2f) = %.2f", x, result);
 
     getch();
     return 0;
