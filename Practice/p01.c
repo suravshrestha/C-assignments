@@ -13,18 +13,18 @@ int main()
     printf("Enter the three sides of triangle: ");
     scanf("%f %f %f", &a, &b, &c);
 
-    if (!((a + b) > c))
+    // for a triangle, the sum of two sides must be greater than the third side
+    if ((a + b) > c && (a + c) > b && (b + c) > a)
     {
-        printf("Triangle with the given sides is not possible.");
-        return 0;
+        // Triangle is possible
+        s = (a + b + c) / 2;
+
+        area = sqrt(s * (s - a) * (s - b) * (s - c));
+
+        printf("Area of the triangle with sides %.2f, %.2f, and %.2f is %.2f", a, b, c, area);
     }
-
-    // Triangle is possible
-    s = (a + b + c) / 2;
-
-    area = sqrt(s * (s - a) * (s - b) * (s - c));
-
-    printf("Area of the triangle with sides %.2f, %.2f, and %.2f is %.2f", a, b, c, area);
+    else
+        printf("Triangle with the given sides is not possible.");
 
     getch();
     return 0;
