@@ -1,10 +1,11 @@
+
 ### Lab 1 - Introduction
 
 ---
 
 <ol>
   <li>
-    <a href="Lab-1-introduction/p01.c">Type the following program, run, and see the output.</a>
+    <a href="./p01.c">Type the following program, run, and see the output.</a>
         
     #include <stdio.h> 
     #include <conio.h> 
@@ -19,7 +20,7 @@
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p02.c">Type the following program and run with different input.</a>
+    <a href="./p02.c">Type the following program and run with different input.</a>
         
     #include <stdio.h>
     #include <conio.h>
@@ -47,7 +48,7 @@
   </li>
      
   <li>
-    <a href="Lab-1-introduction/p03.c">Type the following program, run, and see the output.</a>
+    <a href="./p03.c">Type the following program, run, and see the output.</a>
         
     #include <stdio.h> 
     #include <conio.h> 
@@ -74,46 +75,46 @@
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p04.c">Write a program to calculate the area, circumference of a circle of radius r.</a>
+    <a href="./p04.c">Write a program to calculate the area, circumference of a circle of radius r.</a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p05.c">Write a program to calculate the volume of sphere of radius r.</a>
+    <a href="./p05.c">Write a program to calculate the volume of sphere of radius r.</a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p06.c">Write a program to calculate the simple interest. Read the values of principal, time, and rate of interest from the user.</a>
+    <a href="./p06.c">Write a program to calculate the simple interest. Read the values of principal, time, and rate of interest from the user.</a>
   </li>
   
   <li>
-    <a href="Lab-1-introduction/p07.c">
+    <a href="./p07.c">
       Write a program to read the values of x and y from the user and evaluate the expression<br>
       v = x^3 + y^2 - 100 / x
     </a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p08.c">Write a program to read four integers from the user and display the mean of the numbers.</a>
+    <a href="./p08.c">Write a program to read four integers from the user and display the mean of the numbers.</a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p09.c">Write a program to read length, breadth, and height of a cuboid and display its volume.</a>
+    <a href="./p09.c">Write a program to read length, breadth, and height of a cuboid and display its volume.</a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p10.c">Write a program to read price of two pens and five copies and calculate the price after discounting 10%.</a>
+    <a href="./p10.c">Write a program to read price of two pens and five copies and calculate the price after discounting 10%.</a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p11.c">Write a program to read the time given for C programming in a day in hours and display the total time in seconds in 30 days.</a>
+    <a href="./p11.c">Write a program to read the time given for C programming in a day in hours and display the total time in seconds in 30 days.</a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p12.c">Write a program to read name and age of the user and display them.</a>
+    <a href="./p12.c">Write a program to read name and age of the user and display them.</a>
   </li>
     
   <li>
-    <a href="Lab-1-introduction/p13.c">Write a program to read a character and display it.</a>
+    <a href="./p13.c">Write a program to read a character and display it.</a>
   </li>
     
 </ol>
