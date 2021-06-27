@@ -1,6 +1,6 @@
 /*
     Practice
-    11. Write a program to evaluate the following series upto n terms. Prompt the values of x and n from the user.
+    12. Write a program to evaluate the following series upto n terms. Prompt the values of x and n from the user.
         f(x) = x + x^2/2! + x^3/3! + x^4/4! + ...upto n terms
 */
 
