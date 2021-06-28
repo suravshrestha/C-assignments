@@ -19,7 +19,7 @@ int main()
         The ‘%s’ conversion matches a string of non-whitespace characters. 
         It skips and discards initial whitespace, but stops when it encounters more whitespace after having read something.
         It stores a null character at the end of the text that it reads.
-        if we want to read string with multiple spaces, we use gets(), example in Lab-3-console-input-output p02.c
+        if we want to read string with multiple spaces, we use gets(), example in Lab-3-console-input-output p03.c
     */
     printf("Enter a string: ");
     scanf("%s", s);
