@@ -56,5 +56,41 @@
         f(x) = x + x^2/2! + x^3/3! + x^4/4! + ...upto n terms
     </a>
   </li>
+
+  <li>
+    <a href="./p13.c">
+        Write a program to display the binary equivalent of a decimal integer.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p14.c">
+        Write a program to display the decimal equivalent of a binary number.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p15.c">
+        Write a program to display the chessboard pattern, use "\xdb" for white square.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p16.c">Write a program to read an integer and print the pattern. If user enters 5, the pattern is:</a>
+    
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+    1 2 3 4 5
+  </li>
+
+  <li>
+    <a href="./p17.c">
+        Write a program to enter an integer, and find sum of the digits until the sum becomes single digit.<br>
+        If user enters 1729, 1 + 7 + 2 + 9 = 19 -> 1 + 9 = 10 -> 1 + 0 = 1<br>
+        Result = 1<br>
+    </a>
+  </li>
       
 </ol>
