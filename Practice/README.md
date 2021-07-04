@@ -92,5 +92,20 @@
         Result = 1<br>
     </a>
   </li>
-      
+
+  <li>
+    Write a program to add two numbers using<br>
+    <a href="./p18a.c">a) function with return type and argument.</a><br>
+    <a href="./p18b.c">b) function with return type, but no argument.</a><br>
+    <a href="./p18c.c">c) function with no return type, but argument.</a><br>
+    <a href="./p18d.c">d) function with no return type, and no argument.</a>
+  </li>
+
+  <li>
+    <a href="./p19.c">
+      Write a program to read an integer and count the even and odd digits present in the integer.
+      Use function for calculating the result, display the result in the main function.
+    </a>
+  </li>
+
 </ol>
