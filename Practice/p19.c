@@ -52,7 +52,7 @@ int main()
     printf("Enter a positive integer: ");
     scanf("%u", &num);
 
-    printf("\nEntered digit = %u\n", num);
+    printf("\nEntered number = %u\n", num);
     printf("Total even digits = %d\n", even_digits(num));
     printf("Total odd digits = %d", odd_digits(num));
 
