@@ -8,16 +8,12 @@
 
 int main()
 {
-    /*
-        string is an array of characters,
-        string must a fixed length array
-        char name[] = "Dennis Ritchie"; // invalid
-    */
-    char name[50] = "Dennis Ritchie";
+    // string is an array of characters,
+    char name[] = "Dennis Ritchie";
 
     printf("C program to show format specifier variation for strings\n");
 
-    printf("Initialization: char name[50] = \"Dennis Ritchie\";\n");
+    printf("Initialization: char name[] = \"Dennis Ritchie\";\n");
 
     // the integer after . is the number of characters to display starting from first character of the string
     // %s is used for format specifier
