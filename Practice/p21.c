@@ -1,7 +1,7 @@
 /*
     Practice
-    21. Write a program to input two numbers and any one of the four arithmetic operators from the user and print the respective arithmetic result using switch statement.
-        Create separate functions for separate arithmetic operation, until 
+    21. Write a program to input two numbers and any one of the four arithmetic operators from the user and print the respective arithmetic result using switch statement,
+        and continue until the user enters 'e'. Create separate functions for separate arithmetic operation.
 */
 
 #include <stdio.h>
