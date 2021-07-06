@@ -107,5 +107,37 @@
       Use function for calculating the result, display the result in the main function.
     </a>
   </li>
+  
+  <li>
+    <a href="./p20.c">
+      Write a program to input two numbers and any one of the four arithmetic operators from the user and print the respective arithmetic result using switch statement.
+      Create separate functions for separate arithmetic operation.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p21.c">
+        Write a program to input two numbers and any one of the four arithmetic operators from the user and print the respective arithmetic result using switch statement,
+        and continue until the user enters 'e'. Create separate functions for separate arithmetic operation.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p22.c">
+      Write a program to find the factorial of an integer using recursion.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p23.c">
+      Write a program to find x^y using recursion, where y is a positive integer.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p24.c">
+      Write a program to read a positive integer n and find the sum of integers from 1 to n.
+    </a>
+  </li>
 
 </ol>
