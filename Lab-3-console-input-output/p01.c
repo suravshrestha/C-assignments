@@ -13,7 +13,8 @@ int main()
     printf("C program to show console character input\n");
 
     /*
-        getch(), getche and getchar() are defined in conio.h header file
+        getchar() is defined in stdio.h header file
+        getch and getche() are defined in conio.h header file
         both getche() and getchar() read a character 
         getche() doesn't wait for an enter key, while getchar() expects an enter key
         if multiple characters are entered, getchar() will read the first character only.
