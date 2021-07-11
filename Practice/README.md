@@ -140,4 +140,22 @@
     </a>
   </li>
 
+  <li>
+    <a href="./p25.c">
+      Write a program to read two integers swap them using function (use function call by reference).
+    </a>
+  </li>
+
+  <li>
+    <a href="./p26.c">
+      Write a program to find the avarage of n numbers of an one-dimensional array.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p27.c">
+      Write a program to find the largest number of an array of numbers.
+    </a>
+  </li>
+
 </ol>
