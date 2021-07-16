@@ -1,6 +1,6 @@
 /*
     Lab 4
-    8.  Write a program to enter an integer from 1 to 7 and display the corressponding day of the week, 1 -> Sunday.
+    8.  Write a program to enter an integer from 1 to 7 and display the corresponding day of the week, 1 -> Sunday.
 */
 
 #include <stdio.h>

@@ -1,7 +1,7 @@
 /*
     Lab 4
     3.  WAP to read the three sides of a triangle and find the area of the triangle.
-        Display appropriate message if a triangle is not posible, with the given sides.
+        Display appropriate message if a triangle is not possible, with the given sides.
 */
 
 #include <stdio.h>

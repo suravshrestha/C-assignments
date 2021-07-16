@@ -30,8 +30,8 @@ int main()
     {
         if (b == 0)
             printf("Division by zero is not possible.");
-
-        printf("%.2f / %.2f = %.2f", a, b, a / b);
+        else
+            printf("%.2f / %.2f = %.2f", a, b, a / b);
     }
     else
         printf("Sorry, I don't understand the operator.");
