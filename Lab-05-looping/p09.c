@@ -10,6 +10,8 @@ int main()
 {
     int num;
 
+    printf("C program to print the multiplication table of a positive integer\n\n");
+
     printf("Enter a positive integer: ");
     scanf("%d", &num);
 

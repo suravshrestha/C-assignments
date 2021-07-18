@@ -1,6 +1,6 @@
 /*
     Lab 5
-    4.  Write a program to enter an integer and print the factorlal. Display appropriate message if factorial is not possible.
+    4.  Write a program to enter an integer and print the factorial. Display appropriate message if factorial is not possible.
 */
 
 #include <stdio.h>
