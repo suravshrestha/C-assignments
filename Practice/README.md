@@ -158,4 +158,21 @@
     </a>
   </li>
 
+  <li>
+    <a href="./p28.c">
+      Write a program to sort an array of integers in both ascending and descending order.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p29.c">
+      Write a program to sort an array of integers descending order. Create a function named sort which takes the array an prints the sorted array in the function sort itself.
+    </a>
+  </li>
+
+  <li>
+    <a href="./p30.c">
+      Write a program to sort an array of integers descending order. Create two functions sort and display. Function sort sorts the array, function display displays the sorted array. Call the display function in main function.
+    </a>
+  </li>
 </ol>
