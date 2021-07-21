@@ -1,6 +1,6 @@
 /*
     Lab 7
-    5.  Combine problems 1 to 4 using switch statement . Ask the user for the option, and display appropriate output.
+    5.  Combine problems 1 to 4 using switch statement. Ask the user for the option, and display appropriate output.
         Make separate functions for each operation.
 */
 

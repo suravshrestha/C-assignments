@@ -1,6 +1,6 @@
 /*
     Lab 7
-    9.  Write a program to compute the followin series:
+    9.  Write a program to compute the following series:
         1^2 - 2^2 + 3^2 - ...upto n terms
         Use recursion to find the exponents.
 */
