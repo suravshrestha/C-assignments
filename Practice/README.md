@@ -1,6 +1,4 @@
-### Practice problems
-
----
+## Practice problems
 
 <ol>
   <h3>Branching structures</h3>
