@@ -3,6 +3,8 @@
 ---
 
 <ol>
+  <h3>Branching structures</h3>
+  
   <li>
     <a href="./p01.c">
       Write a program to find the area of a triangle.  
@@ -23,6 +25,8 @@
     </a>
   </li>
     
+  <h3>Looping</h3>
+  
   <li>
     <a href="./p06.c">Write a program to read numbers until the current sum becomes 1000 using while loop.</a>
   </li>
@@ -92,7 +96,9 @@
         Result = 1<br>
     </a>
   </li>
-
+    
+  <h3>User defined Functions</h3>
+  
   <li>
     Write a program to add two numbers using<br>
     <a href="./p18a.c">a) function with return type and argument.</a><br>
@@ -121,6 +127,8 @@
         and continue until the user enters 'e'. Create separate functions for separate arithmetic operation.
     </a>
   </li>
+  
+  <h3>Recursion</h3>
 
   <li>
     <a href="./p22.c">
@@ -140,12 +148,16 @@
     </a>
   </li>
 
+  <h3>Function call by reference (using pointers)</h3>
+  
   <li>
     <a href="./p25.c">
       Write a program to read two integers swap them using function (use function call by reference).
     </a>
   </li>
 
+  <h3>One dimensional array</h3>
+  
   <li>
     <a href="./p26.c">
       Write a program to find the avarage of n numbers of an one-dimensional array.
