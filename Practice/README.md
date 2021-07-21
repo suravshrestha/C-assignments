@@ -157,31 +157,31 @@
   <h3>One dimensional array</h3>
   
   <li>
-    <a href="./05-1d-array/p26.c">
+    <a href="./06-1d-array/p26.c">
       Write a program to find the avarage of n numbers of an one-dimensional array.
     </a>
   </li>
 
   <li>
-    <a href="./05-1d-array/p27.c">
+    <a href="./06-1d-array/p27.c">
       Write a program to find the largest number of an array of numbers.
     </a>
   </li>
 
   <li>
-    <a href="./05-1d-array/p28.c">
+    <a href="./06-1d-array/p28.c">
       Write a program to sort an array of integers in both ascending and descending order.
     </a>
   </li>
 
   <li>
-    <a href="./05-1d-array/p29.c">
+    <a href="./06-1d-array/p29.c">
       Write a program to sort an array of integers descending order. Create a function named sort which takes the array an prints the sorted array in the function sort itself.
     </a>
   </li>
 
   <li>
-    <a href="./05-1d-array/p30.c">
+    <a href="./06-1d-array/p30.c">
       Write a program to sort an array of integers descending order. Create two functions sort and display. Function sort sorts the array, function display displays the sorted array. Call the display function in main function.
     </a>
   </li>
