@@ -185,4 +185,25 @@
       Write a program to sort an array of integers descending order. Create two functions sort and display. Function sort sorts the array, function display displays the sorted array. Call the display function in main function.
     </a>
   </li>
+  
+  <h3>Two dimensional array</h3>
+  
+  <li>
+    <a href="./07-2d-array/p01.c">
+      Write a program to find the transpose of a matrix of integers.
+    </a>
+  </li>
+
+  <li>
+    <a href="./07-2d-array/p02.c">
+      Write a program to read a matrix of integers of size m x n. Pass it to a return type function. This function should add all the elements of the matrix and display the result in main.
+    </a>
+  </li>
+  
+  <li>
+    <a href="./07-2d-array/p03.c">
+      Write a program to add two matrices of integers using non-return type function. Display appropriate message if addition is not possible.
+    </a>
+  </li>
+
 </ol>
