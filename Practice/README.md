@@ -205,5 +205,18 @@
       Write a program to add two matrices of integers using non-return type function. Display appropriate message if addition is not possible.
     </a>
   </li>
+  
+  <h3>Pointers</h3>
+  
+  <li>
+    <a href="./08-pointers/p01.c">
+      Write a program to find the largest of two numbers using the concept of pointer.
+    </a>
+  </li>
 
+  <li>
+    <a href="./08-pointers/p02.c">
+      Write a program to find the largest and smallest element of an array of integers using the concept of pointer and function.
+    </a>
+  </li>
 </ol>
