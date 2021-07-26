@@ -232,7 +232,7 @@
     Nep
     Nepa
     Nepal
-    
+
   </li>
 
   <li>
@@ -268,6 +268,12 @@
   <li>
     <a href="./09-string/p07.c">
       Write a program to read a string and copy the string in a new variable using string handling function.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p08.c">
+      Write a program to read a string and copy the string in a new variable without using string handling function. Create a separate user defined function, duplicating the strcpy function, without the return string functionality.
     </a>
   </li>
 </ol>
