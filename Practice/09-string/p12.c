@@ -1,7 +1,7 @@
 /*
     Practice
     String
-    11. Write a program to read a string and reverse the string without using the string handling function strrev.
+    12. Write a program to read a string and reverse the string without using the string handling function strrev.
         Create a separate user defined function, duplicating the strrev function, without the return string functionality.
 */
 

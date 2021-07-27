@@ -1,7 +1,7 @@
 /*
     Practice
     String
-    12. Write a program to read a string and reverse the string using string handling function.
+    11. Write a program to read a string and reverse the string using string handling function.
 */
 
 #include <stdio.h>
