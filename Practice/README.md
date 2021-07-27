@@ -219,4 +219,55 @@
       Write a program to find the largest and smallest element of an array of integers using the concept of pointer and function.
     </a>
   </li>
+
+  <h3>String</h3>
+  
+  <li>
+    <a href="./09-string/p01.c">
+      Write a program to display the following pattern:
+    </a>
+
+    N
+    Ne
+    Nep
+    Nepa
+    Nepal
+    
+  </li>
+
+  <li>
+    <a href="./09-string/p02.c">
+      Write a program to read a string from the user and display the length of the string using string handling function.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p03.c">
+      Write a program to read a string from the user and display the length of the string without using string handling function. Create a separate user defined function to find the length.
+    </a>
+  </li>
+  
+  <li>
+    <a href="./09-string/p04.c">
+      Write a program to read two strings and combine those strings using string handling function.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p05.c">
+      Write a program to read two strings and combine those strings without using string handling function. Create a separate user defined function, duplicating the strcat function.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p06.c">
+      Write a program to read two strings and combine those strings without using string handling function. Create a separate user defined function to combine those strings. Store the combined string in a separate variable.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p07.c">
+      Write a program to read a string and copy the string in a new variable using string handling function.
+    </a>
+  </li>
 </ol>
