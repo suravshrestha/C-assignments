@@ -23,6 +23,8 @@
     </a>
   </li>
     
+  <hr>
+
   <h3>Looping</h3>
   
   <li>
@@ -95,6 +97,8 @@
     </a>
   </li>
     
+  <hr>
+
   <h3>User defined Functions</h3>
   
   <li>
@@ -126,6 +130,8 @@
     </a>
   </li>
   
+  <hr>
+
   <h3>Recursion</h3>
 
   <li>
@@ -146,6 +152,8 @@
     </a>
   </li>
 
+  <hr>
+
   <h3>Function call by reference (using pointers)</h3>
   
   <li>
@@ -153,6 +161,8 @@
       Write a program to read two integers swap them using function (use function call by reference).
     </a>
   </li>
+
+  <hr>
 
   <h3>One dimensional array</h3>
   
@@ -186,6 +196,8 @@
     </a>
   </li>
   
+  <hr>
+
   <h3>Two dimensional array</h3>
   
   <li>
@@ -206,6 +218,8 @@
     </a>
   </li>
   
+  <hr>
+
   <h3>Pointers</h3>
   
   <li>
@@ -219,6 +233,8 @@
       Write a program to find the largest and smallest element of an array of integers using the concept of pointer and function.
     </a>
   </li>
+
+  <hr>
 
   <h3>String</h3>
   
