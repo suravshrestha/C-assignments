@@ -251,6 +251,8 @@
 
   </li>
 
+  <h4>String length</h4>
+
   <li>
     <a href="./09-string/p02.c">
       Write a program to read a string from the user and display the length of the string using string handling function.
@@ -262,6 +264,8 @@
       Write a program to read a string from the user and display the length of the string without using string handling function. Create a separate user defined function to find the length.
     </a>
   </li>
+  
+  <h4>String concatenation</h4>
   
   <li>
     <a href="./09-string/p04.c">
@@ -280,6 +284,8 @@
       Write a program to read two strings and combine those strings without using string handling function. Create a separate user defined function to combine those strings. Store the combined string in a separate variable.
     </a>
   </li>
+
+  <h4>String copy</h4>
 
   <li>
     <a href="./09-string/p07.c">
