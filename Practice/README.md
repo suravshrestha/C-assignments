@@ -298,4 +298,32 @@
       Write a program to read a string and copy the string in a new variable without using string handling function. Create a separate user defined function, duplicating the strcpy function, without the return string functionality.
     </a>
   </li>
+
+  <h4>String compare</h4>
+
+  <li>
+    <a href="./09-string/p09.c">
+      Write a program to read two strings and compare those strings using string handling function.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p10.c">
+      Write a program to read two strings and compare those strings without using string handling function. Create a separate user defined function, duplicating the strcmp function.
+    </a>
+  </li>
+
+  <h4>String reverse</h4>
+
+  <li>
+    <a href="./09-string/p11.c">
+      Write a program to read a string and reverse the string using string handling function.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p12.c">
+      Write a program to read a string and reverse the string without using the string handling function strrev. Create a separate user defined function, duplicating the strrev function, without the return string functionality.
+    </a>
+  </li>
 </ol>
