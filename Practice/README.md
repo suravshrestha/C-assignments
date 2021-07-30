@@ -254,13 +254,13 @@
   <h4>String length</h4>
 
   <li>
-    <a href="./09-string/p02.c">
+    <a href="./09-string//01-string-length/p02.c">
       Write a program to read a string from the user and display the length of the string using string handling function.
     </a>
   </li>
 
   <li>
-    <a href="./09-string/p03.c">
+    <a href="./09-string//01-string-length/p03.c">
       Write a program to read a string from the user and display the length of the string without using string handling function. Create a separate user defined function to find the length.
     </a>
   </li>
@@ -268,19 +268,19 @@
   <h4>String concatenation</h4>
   
   <li>
-    <a href="./09-string/p04.c">
+    <a href="./09-string//02-string-concatenation/p04.c">
       Write a program to read two strings and combine those strings using string handling function.
     </a>
   </li>
 
   <li>
-    <a href="./09-string/p05.c">
+    <a href="./09-string//02-string-concatenation/p05.c">
       Write a program to read two strings and combine those strings without using string handling function. Create a separate user defined function, duplicating the strcat function.
     </a>
   </li>
 
   <li>
-    <a href="./09-string/p06.c">
+    <a href="./09-string//02-string-concatenation/p06.c">
       Write a program to read two strings and combine those strings without using string handling function. Create a separate user defined function to combine those strings. Store the combined string in a separate variable.
     </a>
   </li>
@@ -288,13 +288,13 @@
   <h4>String copy</h4>
 
   <li>
-    <a href="./09-string/p07.c">
+    <a href="./09-string/03-string-copy/p07.c">
       Write a program to read a string and copy the string in a new variable using string handling function.
     </a>
   </li>
 
   <li>
-    <a href="./09-string/p08.c">
+    <a href="./09-string/03-string-copy/p08.c">
       Write a program to read a string and copy the string in a new variable without using string handling function. Create a separate user defined function, duplicating the strcpy function, without the return string functionality.
     </a>
   </li>
@@ -302,13 +302,13 @@
   <h4>String compare</h4>
 
   <li>
-    <a href="./09-string/p09.c">
+    <a href="./09-string/04-string-compare/p09.c">
       Write a program to read two strings and compare those strings using string handling function.
     </a>
   </li>
 
   <li>
-    <a href="./09-string/p10.c">
+    <a href="./09-string/04-string-compare/p10.c">
       Write a program to read two strings and compare those strings without using string handling function. Create a separate user defined function, duplicating the strcmp function.
     </a>
   </li>
@@ -316,13 +316,13 @@
   <h4>String reverse</h4>
 
   <li>
-    <a href="./09-string/p11.c">
+    <a href="./09-string/05-string-reverse/p11.c">
       Write a program to read a string and reverse the string using string handling function.
     </a>
   </li>
 
   <li>
-    <a href="./09-string/p12.c">
+    <a href="./09-string/05-string-reverse/p12.c">
       Write a program to read a string and reverse the string without using the string handling function strrev. Create a separate user defined function, duplicating the strrev function, without the return string functionality.
     </a>
   </li>
