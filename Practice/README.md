@@ -326,4 +326,29 @@
       Write a program to read a string and reverse the string without using the string handling function strrev. Create a separate user defined function, duplicating the strrev function, without the return string functionality.
     </a>
   </li>
+  
+  <br>
+  
+  <li>
+    <a href="./09-string/p13.c">
+      Write a program to sort an array of strings in ascending order.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p14.c">
+      Write a program to sort an array of strings in descending order.
+    </a>
+  </li>
+  <li>
+    <a href="./09-string/p15.c">
+      Write a program to read a string from the user and swap the case of each character of the string. Convert uppercased letters to lowercase and vice versa.
+    </a>
+  </li>
+
+  <li>
+    <a href="./09-string/p16.c">
+      Write a program to read a string and find the number of words in the string.
+    </a>
+  </li>
 </ol>
