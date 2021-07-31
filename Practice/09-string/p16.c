@@ -23,7 +23,7 @@ int main()
     int words_count = 0;
     for (int i = 0; str[i] != '\0'; i++)
     {
-        if (str[i] == ' ' || str[i] == '\t')
+        if (str[i] == ' ')
             sep = 1;
         else if (sep == 1)
         {
