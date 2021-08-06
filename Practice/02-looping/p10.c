@@ -10,7 +10,7 @@
 int main()
 {
     unsigned int num, num_copy, n_digits, digit;
-    int sum = 0;
+    float sum = 0; // since it stores the value of floating type returned by pow()
 
     printf("C program to check whether an integer is Armstrong or not\n");
 

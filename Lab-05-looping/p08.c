@@ -11,7 +11,8 @@
 int main()
 {
     int num, num_copy, digit, n_digits;
-    int reverse = 0, sum = 0, factors = 2;
+    int reverse = 0, factors = 2;
+    float sum = 0; // since it stores the value of floating type returned by pow()
     int is_palidrome = 0, is_armstrong = 0, is_prime = 0, is_twin_prime = 0;
 
     printf("C program to check whether a number is Palindrome, Armstrong, prime or twin prime\n");
