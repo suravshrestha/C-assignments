@@ -60,4 +60,58 @@
     </a>
   </li>
       
+  <h3>Two Dimensional Array</h3>
+
+  <li>
+    <a href="./2d-array/p01.c">
+    Write a program to find the sum of elements of an integer array of size 3x3 which are divisible by 7 but not by 5
+    </a>
+  </li>
+    
+  <li>
+    <a href="./2d-array/p02.c">
+    Write a program to add the corresponding elements of two array of numbers of size m x n. Read the values of m and n from the user.
+    </a>
+  </li>
+     
+  <li>
+    <a href="./2d-array/p03.c">
+    Write a program to find the largest and smallest element of an array of numbers of size 3 x 3.
+    </a>
+  </li>
+    
+  <li>
+    <a href="./2d-array/p04.c">
+    Write a program to read an array of numbers of size 3x3 in main function. Pass the array to a function that finds the sum of major diagonal elements using return type function.
+    </a>
+  </li>
+  
+  <li>
+    <a href="./2d-array/p05.c">
+    Write a program to read an array of numbers of size m x n, and raise each element by power 5. Read the values of m and n from the user and display the final array.
+    </a>
+  </li>
+    
+  <li>
+    <a href="./2d-array/p06.c">
+    Write a program generate a matrix of size 4 x 4 whose elements are given by the expression:<br>
+    a(ij) = 3^-(i + j)
+    </a>
+  </li>
+
+  <li>
+    <a href="./2d-array/p07.c">
+    Write a program to find the sum of individual rows of a 2d array of size m x n and assign them to a 1D array and display the content of the 1D array.
+    Read the values of m and n from the user.
+    </a>
+  </li>
+    
+  <li>
+    <a href="./2d-array/p08.c">
+    Write a program that reads two matrices of order m x n and p x q using function read_matrix().
+    Create another function process_matrix() that multiplies the two matrices. The result matrix must be displayed using a function show_matrix().
+    Read the values of m, n, p and q from the user.
+    </a>
+  </li>
+    
 </ol>
