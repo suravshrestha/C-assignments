@@ -123,7 +123,7 @@ int main()
 
         break;
     case '4':
-        printf("\n\nC program to find the whether an integer is prime or not\n\n");
+        printf("\n\nC program to find whether an integer is prime or not\n\n");
 
         printf("Enter an integer: ");
         scanf("%d", &num);

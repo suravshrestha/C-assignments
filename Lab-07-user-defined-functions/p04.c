@@ -35,7 +35,7 @@ int main()
 {
     int num;
 
-    printf("C program to find the whether an integer is prime or not\n\n");
+    printf("C program to find whether an integer is prime or not\n\n");
 
     printf("Enter an integer: ");
     scanf("%d", &num);

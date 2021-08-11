@@ -36,7 +36,7 @@ int main()
 
     printf("C program to find the number of even and odd digits in an integer\n\n");
 
-    printf("Enter a positve integer: ");
+    printf("Enter a positive integer: ");
     scanf("%u", &num);
 
     count_digits(num, &even_digits, &odd_digits);
