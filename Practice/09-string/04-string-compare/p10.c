@@ -14,7 +14,7 @@ int string_cmp(char string1[], char string2[])
 {
     /*
         && is used in place of || if we want to compare the first characters of the strings
-        but, for the entire string comparision we need ||
+        but, for the entire string comparison we need ||
     */
     for (int i = 0; string1[i] != '\0' || string2[i] != '\0'; i++)
     {

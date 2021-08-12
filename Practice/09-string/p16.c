@@ -40,7 +40,7 @@ int main()
         string1:         Hello   world!      this is a       program written in C
         Result: 9
 
-        string2: Hello world! ths is a program written in C
+        string2: Hello world! this is a program written in C
         Result: 9
     */
 }
