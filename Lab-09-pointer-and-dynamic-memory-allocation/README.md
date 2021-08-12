@@ -72,4 +72,25 @@
     Write a program to read an array of size 10 of type float, pass the array to a function. This function finds the largest and smallest number in the array. Display the largest and smallest number, their indices in the array, as well as the sum and difference between them in the main function. Use pass by reference.
     </a>
   </li>
+
+  <h3>Two Dimensional Array</h3>
+
+  <li>
+    <a href="./2d-array/p01.c">
+    Write a program to find the sum of elements of an integer array of size 3x3 which are divisible by 7 but not by 5.
+    </a>
+  </li>
+    
+  <li>
+    <a href="./2d-array/p03.c">
+    Write a program to find the largest and smallest element of an array of numbers of size 3 x 3.
+    </a>
+  </li>
+    
+  <li>
+    <a href="./2d-array/p07.c">
+    Write a program to find the sum of individual rows of a 2d array of size m x n and assign them to a 1D array and display the content of the 1D array. Read the values of m and n from the user.
+    </a>
+  </li>
+    
 </ol>
