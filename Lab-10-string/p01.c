@@ -1,7 +1,7 @@
 /*
     Lab 10
     String
-    1.  Write a program to check whether a string given by the user is Palindrom or not.
+    1.  Write a program to check whether a string given by the user is Palindrome or not.
 */
 
 #include <stdio.h>
