@@ -1,5 +1,5 @@
 /*
-    Practice
+    Lab 10
     String
     5.c) Write a program to simulate the task of strcpy function
          Create a separate user defined function, duplicating the strcpy function, without the return string functionality.

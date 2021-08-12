@@ -1,8 +1,7 @@
-
 /*
     Lab 10
     String
-    10. Write a program which performs the following tasks:
+    11. Write a program which performs the following tasks:
         - ask the question "Who is the creator of the C programming langauge?"
         - print "CORRECT!" is the answer is correct
         - print "INCORRECT, TRY AGAIN" if the answer is wrong and ask the question again
