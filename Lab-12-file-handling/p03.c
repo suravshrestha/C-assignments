@@ -54,6 +54,12 @@ int main()
 
     fp = fopen("p03.txt", "r");
 
+    if (fp == NULL)
+    {
+        printf("\nFile not found!");
+        return 0;
+    }
+
     while (ch != EOF)
     {
         ch = fgetc(fp);
