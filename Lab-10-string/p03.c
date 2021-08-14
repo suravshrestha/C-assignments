@@ -23,7 +23,9 @@ void find_longest_word_and_counts(char str[], char longest_str[], int *vowels, i
 
     int max_word_first_index = 0;
 
-    for (int i = 0; str[i] != '\0'; i++)
+    int i = 0;
+
+    while (1)
     {
         //  count vowels and consonants
         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' ||
@@ -37,7 +39,7 @@ void find_longest_word_and_counts(char str[], char longest_str[], int *vowels, i
         }
 
         //  for finding the longest word
-        if (str[i] == ' ' || str[i] == '\t')
+        if (str[i] == ' ' || str[i] == '\t' || str[i] == '\0')
         {
             sep = 1;
 
@@ -64,6 +66,11 @@ void find_longest_word_and_counts(char str[], char longest_str[], int *vowels, i
         {
             current_word_length++;
         }
+
+        if (str[i] == '\0')
+            break;
+
+        i++;
     }
 
     int j = 0;
@@ -91,7 +98,7 @@ int main()
 
     find_longest_word_and_counts(str, longest_str, &vowels, &consonants);
 
-    printf("\nLongest string: \"%s\"\n\n", longest_str);
+    printf("\nLongest word: \"%s\"\n\n", longest_str);
 
     printf("Vowel count: %d\n", vowels);
     printf("Consonant count: %d", consonants);
