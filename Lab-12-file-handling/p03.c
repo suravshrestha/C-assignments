@@ -64,7 +64,7 @@ int main()
     {
         ch = fgetc(fp);
 
-        printf("%c", ch);
+        putchar(ch);
     }
 
     fclose(fp);

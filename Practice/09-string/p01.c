@@ -22,7 +22,7 @@ int main()
     {
         printf("\n");
         for (int j = 0; j <= i; j++)
-            printf("%c", string[j]);
+            putchar(string[i]);
     }
 
     getch();
