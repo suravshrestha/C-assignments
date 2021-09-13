@@ -8,18 +8,18 @@
 #include <stdio.h>
 #include <conio.h>
 
-#define STRING_LENGTH 1000
+#define MAX_LEN 1000
 
-int string_cmp(char string1[], char string2[])
+int str_cmp(char s1[], char s2[])
 {
     /*
         && is used in place of || if we want to compare the first characters of the strings
         but, for the entire string comparison we need ||
     */
-    for (int i = 0; string1[i] != '\0' || string2[i] != '\0'; i++)
+    for (int i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
     {
-        if (string1[i] != string2[i])
-            return -1;
+        if (s1[i] != s2[i])
+            return s1[i] - s2[i];
     }
 
     // strings are equal
@@ -30,20 +30,20 @@ int main()
 {
     printf("C program to compare two strings\n\n");
 
-    char string1[STRING_LENGTH];
-    char string2[STRING_LENGTH];
+    char s1[MAX_LEN];
+    char s2[MAX_LEN];
 
     printf("Enter a string: ");
-    gets(string1);
+    gets(s1);
 
     printf("Enter another string: ");
-    gets(string2);
+    gets(s2);
 
-    // string_cmp returns 0 if the strings are equal, else returns -1
-    if (string_cmp(string1, string2) == 0)
-        printf("\nThe strings \"%s\" and \"%s\" are equal", string1, string2);
+    // str_cmp returns 0 if the strings are equal, else returns non-zero integer
+    if (str_cmp(s1, s2) == 0)
+        printf("\nThe strings \"%s\" and \"%s\" are equal", s1, s2);
     else
-        printf("\nThe strings \"%s\" and \"%s\" are not equal", string1, string2);
+        printf("\nThe strings \"%s\" and \"%s\" are not equal", s1, s2);
 
     getch();
     return 0;
