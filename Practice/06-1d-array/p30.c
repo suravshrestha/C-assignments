@@ -1,6 +1,6 @@
 /*
     Practice
-    30. Write a program to sort an array of integers descending order.
+    30. Write a program to sort an array of integers in descending order.
         Create two functions sort and display. 
         Function sort sorts array, function display displays the sorted array. 
         Call the display function in main function.
@@ -30,12 +30,20 @@ void sort(int arr[], int n)
     // Time complexity: O(n^2)
 
     // Descending order
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
+        int max_index = i;
         for (int j = i + 1; j < n; j++)
         {
-            if (arr[i] < arr[j])
-                swap(&arr[i], &arr[j]);
+            if (arr[j] > arr[max_index])
+            {
+                max_index = j;
+            }
+        }
+
+        if (i != max_index)
+        {
+            swap(&arr[i], &arr[max_index]);
         }
     }
 }

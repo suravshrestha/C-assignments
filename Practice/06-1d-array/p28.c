@@ -36,12 +36,20 @@ int main()
     // Time complexity: O(n^2)
 
     // Ascending order
-    for (i = 0; i < n; i++)
+    for (i = 0; i < n - 1; i++)
     {
+        int min_index = i;
         for (j = i + 1; j < n; j++)
         {
-            if (arr[i] > arr[j])
-                swap(&arr[i], &arr[j]);
+            if (arr[j] < arr[min_index])
+            {
+                min_index = j;
+            }
+        }
+
+        if (i != min_index)
+        {
+            swap(&arr[i], &arr[min_index]);
         }
     }
 
@@ -50,12 +58,20 @@ int main()
         printf("%d ", arr[i]);
 
     // Descending order
-    for (i = 0; i < n; i++)
+    for (i = 0; i < n - 1; i++)
     {
+        int max_index = i;
         for (j = i + 1; j < n; j++)
         {
-            if (arr[i] < arr[j])
-                swap(&arr[i], &arr[j]);
+            if (arr[j] > arr[max_index])
+            {
+                max_index = j;
+            }
+        }
+
+        if (i != max_index)
+        {
+            swap(&arr[i], &arr[max_index]);
         }
     }
 
