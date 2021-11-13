@@ -16,21 +16,28 @@ void sort_arr(int n, char arr[][CHAR_LIMIT])
     // Time complexity: O(n^2)
 
     char temp[CHAR_LIMIT]; // for swapping strings
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
+        int max_index = i;
         // compare the string at (i)th index with strings after the (i)th index
         for (int j = i + 1; j < n; j++)
         {
             // strcmp returns the difference in ASCII value of the first unmatched character strings
             // left unmatched character - right unmatched character
-            if (strcmp(arr[i], arr[j]) < 0)
+            if (strcmp(arr[j], arr[max_index]) > 0)
             {
-                // swap the string in (i)th and (j)th index
-                strcpy(temp, arr[i]);
-                strcpy(arr[i], arr[j]);
-                strcpy(arr[j], temp);
+                max_index = j;
             }
         }
+
+        if (i != max_index)
+        {
+            // swap the string in (i)th and (max_index)th index
+            strcpy(temp, arr[i]);
+            strcpy(arr[i], arr[max_index]);
+            strcpy(arr[max_index], temp);
+        }
+
         // now the (i)th position of arr is sorted
         // so, we don't need to compare string at (i)th position with any other strings in arr
     }
@@ -64,9 +71,9 @@ int main()
 
     sort_arr(n, arr);
 
-    printf("\nSorted array of strings:\n");
+    printf("\nSorted array of strings:");
     for (int i = 0; i < n; i++)
-        printf("%s\n", arr[i]);
+        printf("\n%s", arr[i]);
 
     getch();
     return 0;

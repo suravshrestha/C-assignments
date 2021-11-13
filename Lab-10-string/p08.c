@@ -19,12 +19,20 @@ void sort_string(char str[])
 {
     int length = strlen(str);
 
-    for (int i = 0; i < length; i++)
+    for (int i = 0; i < length - 1; i++)
     {
-        for (int j = 0; j < length; j++)
+        int min_index = i;
+        for (int j = i + 1; j < length; j++)
         {
-            if (str[j] > str[i])
-                swap(&str[i], &str[j]);
+            if (str[j] < str[min_index])
+            {
+                min_index = j;
+            }
+        }
+
+        if (i != min_index)
+        {
+            swap(&str[i], &str[min_index]);
         }
     }
 }
