@@ -83,10 +83,10 @@
   
   
   ```
-  - ask the question "Who is the creator of the C programming langauge?"<br>
-  - print "CORRECT!" is the answer is correct<br>
-  - print "INCORRECT, TRY AGAIN" if the answer is wrong and ask the question again<br>
-  - print the correct answer if the answer is wrong even at the third attempt and stop<br>
+  - ask the question "Who is the creator of the C programming langauge?"
+  - print "CORRECT!" if the answer is correct
+  - print "INCORRECT, TRY AGAIN" if the answer is wrong and ask the question again
+  - print the correct answer if the answer is wrong even at the third attempt and stop
   ```
       
 </ol>
